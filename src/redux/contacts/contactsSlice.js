@@ -1,7 +1,7 @@
 import { createSelector, createSlice } from "@reduxjs/toolkit";
-import { addContact, fetchContacts, deleteContact } from "./contactsOps";
+import { addContact, fetchContacts, deleteContact } from "./operations";
 import { selectNameFilter, selectPhoneFilter } from "../filter/filtersSlice";
-import { logout } from "../auth/authOps";
+import { logout } from "../auth/operations";
 import toast from "react-hot-toast";
 
 const contactAdded = () => toast("✅Contact added successfully");

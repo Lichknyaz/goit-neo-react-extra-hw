@@ -1,5 +1,5 @@
 import { Field, Form, Formik } from "formik";
-import { register } from "../../redux/auth/authOps";
+import { register } from "../../redux/auth/operations";
 import { useDispatch } from "react-redux";
 import { Box, Button, TextField, Typography } from "@mui/material";
 

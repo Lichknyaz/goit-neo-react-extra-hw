@@ -7,7 +7,7 @@ import {
 } from "../../redux/contacts/contactsSlice";
 import ContactList from "../../components/ContactList/ContactList";
 import { useEffect, useState } from "react";
-import { fetchContacts } from "../../redux/contacts/contactsOps";
+import { fetchContacts } from "../../redux/contacts/operations";
 import { Box, CircularProgress, Container, Typography } from "@mui/material";
 import DeleteModal from "../../components/DeleteModal/DeleteModal";
 

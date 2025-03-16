@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { selectUser } from "../../redux/auth/authSlice";
-import { logout } from "../../redux/auth/authOps";
+import { logout } from "../../redux/auth/operations";
 import { Box, Button, Typography } from "@mui/material";
 
 function UserMenu() {

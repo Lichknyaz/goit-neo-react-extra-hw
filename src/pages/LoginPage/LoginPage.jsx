@@ -1,6 +1,6 @@
 import { Field, Form, Formik } from "formik";
 import { useDispatch } from "react-redux";
-import { login } from "../../redux/auth/authOps";
+import { login } from "../../redux/auth/operations";
 import { Box, Button, TextField, Typography } from "@mui/material";
 
 function LoginPage() {
